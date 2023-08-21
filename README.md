@@ -51,10 +51,11 @@ Set up OAuth2 client credentials and properties in the respective configuration 
 ## Future features
 As part of the constant development. Here ir some of the features that are mapped to be implemented:
 
+- Implementation of unit tests on order-service and integrated tests using TestContainers in all microservices
 - Implementation of user-service.
 - Async communication (using kafka) between product-service and order-service always when a product is created/updated/deleted.
 - Implementation of OAuth2 authentication in all microservices (including dedicated key for each user).
-- Hosting the microservices in a cloud platform.
+- Hosting the microservices in a cloud platform with pipelines.
 - Applying more business rule to calculate the calorie amount consumed by each user.
 - Soft delete on orders and users databases.
 - Monitoring tools like Prometheus and Grafana.
