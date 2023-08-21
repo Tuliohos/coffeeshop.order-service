@@ -29,7 +29,6 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
         order_id UUID NOT NULL,
         product_id UUID NOT NULL,
         quantity INT NOT NULL,
-        price DECIMAL(10, 2) NOT NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
